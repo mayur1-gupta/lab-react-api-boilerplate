@@ -1,0 +1,49 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.BookTitle {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #5d1111;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin-top: 10px;
+  border-top: 1px solid #ff0000;
+}
+
+
+.BookImage {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.BookImage img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+
+.authorName {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.authorName div {
+  margin-right: 5px;
+}
